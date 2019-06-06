@@ -1,1 +1,12 @@
-https://angular.io/tutorial/toh-pt5
+https://angular.io/tutorial/toh-pt6
+
+getting started:
+once on system:
+npm install -g @angular/cli
+
+
+git clone https://www.github.com/matthewaveryusa/angulartoots
+cd angulartoots/my-app
+npm install
+ng serve
+firefox localhost:4200
