@@ -28,7 +28,7 @@ function pick_random(n: number, arr: any[]): any[] {
     return arr;
   }
 
-  const ret = arr.slice(1, n);
+  const ret = arr.slice(0, n);
   for (let i = n - 1; i < arr.length; ++i) {
     const r = Math.floor(Math.random() * i);
     if ( r < n) {
